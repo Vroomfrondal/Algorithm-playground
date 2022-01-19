@@ -4,6 +4,7 @@
 //	countTrue([false, false, false, false]) ➞ 0
 //	countTrue([]) ➞ 0
 
+// You had to google the boolean operator
 function countTrue(arr) {
     // store true values in new array depending on if truthy
     const truthArray = arr.filter(Boolean).length

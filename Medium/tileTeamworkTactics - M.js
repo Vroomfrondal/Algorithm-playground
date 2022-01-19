@@ -18,7 +18,26 @@
 // If you are already on the same tile, return false, as you would be advancing away.
 // Expect only positive integer inputs.
 
+//sumbitted solution
 function possibleBonus(a, b) {
+    let c = a - b
+    c = Math.abs(c)
+
+    if (Math.abs(c) == 0) {
+        return false
+    } else if (Math.abs(c) > 6) {
+        return false
+    } else if (a > b) {
+        return false
+    } else if (Math.abs(c) <= 3) {
+        return true
+    } else {
+        return true
+    }
+}
+
+// after sumbission... improved solution
+function possibleBonus1(a, b) {
     let c = a - b
     c = Math.abs(c)
 
