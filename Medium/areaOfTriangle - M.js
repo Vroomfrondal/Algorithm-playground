@@ -14,4 +14,4 @@ function triArea(base, height) {
     return areaFormula
 }
 
-triArea(3, 2)
+console.log(triArea(3, 2))
