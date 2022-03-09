@@ -1,6 +1,5 @@
 var twoSum = function (nums, target) {
     const indices = []
-
     // nested loop to check both numbers equal target-number
     for (i = 0; i < nums.length; i++) {
         for (j = i + 1; j < nums.length; j++) {
