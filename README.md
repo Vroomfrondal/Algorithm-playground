@@ -1,2 +1,3 @@
 # Leetcode-fun
- An interview algorithm dump
+
+An algorithm dump
