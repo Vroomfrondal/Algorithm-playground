@@ -1,25 +1,20 @@
-/**
- * Definition for a binary tree r.
- * function TreeNode(val, left, right) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.left = (left===undefined ? null : left)
- *     this.right = (right===undefined ? null : right)
- * }
- */
-/**
- * @param {TreeNode} root
- * @return {number}
- */
-//var sumOfLeftLeaves = function (root) {
-// set a sum counter
+// passes leetcode test cases but fails soemthing like [5, null, 7, 6, 10] and I don't know why
+var sumOfLeftLeaves = function (root) {
+    let sum = 0
 
-// function traverseTree: root as argument {
-// check if root is absent and return from the function if so (avoid infinite loop)
+    function traverseTree(root) {
+        if (!root) {
+            return
+        }
 
-// if root.left ...
-// 2 paths: root.left and root.right
-// check if root.left.left and root.left.right are absent (meaning no child nodes), and add root.left.val to sum
-// recursive traverseTree function with root.left and root.right
-//}
-
-//}
+        if (root.left) {
+            //checking children nodes
+            if (root.left.left === null) {
+                sum += root.left.val
+                traverseTree(root.right)
+            }
+        }
+    }
+    traverseTree(root)
+    return sum
+}
