@@ -13,7 +13,6 @@ var search = function (nums, target) {
             start = middle
         }
     }
-    //return nums[start] == target ? start : -1
 
     if (nums[start] === target) return nums[start]
     else return -1
