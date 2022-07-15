@@ -1,0 +1,20 @@
+{
+    "name": "algorithm-playground",
+    "version": "1.0.0",
+    "description": "An algorithm dump",
+    "main": "index.js",
+    "scripts": {
+        "747": "cd Leetcode/Easy && ts-node 747-LargestNumberAtLeastTwiceofOthers.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Vroomfrondal/Algorithm-playground.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Vroomfrondal/Algorithm-playground/issues"
+    },
+    "homepage": "https://github.com/Vroomfrondal/Algorithm-playground#readme"
+}
