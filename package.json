@@ -4,7 +4,8 @@
     "description": "An algorithm dump",
     "main": "index.js",
     "scripts": {
-        "747": "cd Leetcode/Easy && ts-node 747-LargestNumberAtLeastTwiceofOthers.ts"
+        "747": "cd Leetcode/Easy && ts-node 747-LargestNumberAtLeastTwiceofOthers.ts",
+        "121": "cd Leetcode/Easy && ts-node 121-bestTimeToSellStock.ts"
     },
     "repository": {
         "type": "git",
