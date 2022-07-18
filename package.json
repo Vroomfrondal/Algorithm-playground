@@ -6,7 +6,8 @@
     "scripts": {
         "747": "cd Leetcode/Easy && ts-node 747-LargestNumberAtLeastTwiceofOthers.ts",
         "121": "cd Leetcode/Easy && ts-node 121-bestTimeToSellStock.ts",
-        "136": "cd Leetcode/Easy && ts-node 136-singleNumber.ts"
+        "136": "cd Leetcode/Easy && ts-node 136-singleNumber.ts",
+        "412": "cd Leetcode/Easy && ts-node 412-fizzBuzz.js"
     },
     "repository": {
         "type": "git",
