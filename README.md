@@ -17,3 +17,7 @@ npm run 136 // Leetcode 136 [Easy]: Single Number
 ```bash
 npm run 412 // Leetcode 412 [Easy]: FizzBuzz
 ```
+
+```bash
+npm run 217 // Leetcode 217 [Easy]: Contains Duplicate
+```
