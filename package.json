@@ -4,11 +4,11 @@
     "description": "An algorithm dump",
     "main": "index.js",
     "scripts": {
-        "747": "cd Leetcode/Easy && ts-node 747-LargestNumberAtLeastTwiceofOthers.ts",
         "121": "cd Leetcode/Easy && ts-node 121-bestTimeToSellStock.ts",
         "136": "cd Leetcode/Easy && ts-node 136-singleNumber.ts",
+        "217": "cd Leetcode/Easy && ts-node 217-containsDuplicate.js",
         "412": "cd Leetcode/Easy && ts-node 412-fizzBuzz.js",
-        "217": "cd Leetcode/Easy && ts-node 217-containsDuplicate.js"
+        "747": "cd Leetcode/Easy && ts-node 747-LargestNumberAtLeastTwiceofOthers.ts"
     },
     "repository": {
         "type": "git",
@@ -20,5 +20,8 @@
     "bugs": {
         "url": "https://github.com/Vroomfrondal/Algorithm-playground/issues"
     },
-    "homepage": "https://github.com/Vroomfrondal/Algorithm-playground#readme"
+    "homepage": "https://github.com/Vroomfrondal/Algorithm-playground#readme",
+    "devDependencies": {
+        "ts-node": "^10.9.1"
+    }
 }
