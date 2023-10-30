@@ -2,8 +2,8 @@
 
 function countPoints(rings: string): number {
     let answer = 0
-    const input = Array.from(rings)
-    const rods: any = [
+    const ringsInput: string[] = Array.from(rings)
+    const rods: Record<number, any>[] = [
         { 0: [] },
         { 1: [] },
         { 2: [] },
@@ -17,7 +17,7 @@ function countPoints(rings: string): number {
     ]
 
     let currColor = ''
-    input.map((character, index) => {
+    ringsInput.map((character, index) => {
         if (index % 2 === 0) {
             // on color character
             currColor = character
@@ -39,4 +39,4 @@ function countPoints(rings: string): number {
 }
 
 countPoints('B0B6G0R6R0R6G9')
-countPoints('G4')
+// countPoints('G4')
